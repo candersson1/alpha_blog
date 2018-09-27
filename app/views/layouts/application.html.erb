@@ -13,6 +13,7 @@
     <%= render 'layouts/navigation' %>
     <%= render 'layouts/messages' %>
     <div class="container">
+      <%= react_component("HelloWorld", { greeting: "This is awesome." }) %>
       <%= yield %>
     </div>
     <%= render 'layouts/footer' %>
